@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.w-1 {
+    width: 100%;
+}
+
+.w-2 {
+    width: 50%;
+}
+
+.w-3 {
+    width: 33.33%;
+}
+
+.w-4 {
+    width: 25%;
+}
+
+.w-5 {
+    width: 20%;
+}
+
+.w-6 {
+    width: 16.33%;
+}
+
+.g-50 {
+    gap: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.btn {
+    color: white;
+    background-color: red;
+    width: 80px;
+    margin: auto;
+}
+
+header {
+    background-color: #F8F8F8;
+    width: 100%;
+    z-index: 9;
+    border-bottom: 2px solid red;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    color: red;
+    padding: 20px;
+}
+
+.box-1 {
+    background-color: red;
+    width: 70px;
+    height: 54px;
+}
+
+.tab-bg {
+    background-color: black;
+    color: white;
+}
+
+.tab-contact {
+    background-color: red;
+    height: 32px;
+    width: 140px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tab-mail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 87%;
+    padding: 0 78px;
+}
+
+.benner-img {
+    background-image: url(img/image2.png);
+    background-size: cover;
+    height: 333px;
+    padding: 15px;
+}
+
+.blog {
+    text-align: center;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    width: 24%;
+    overflow: hidden;
+}
+
+.blog-container {
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.blog-contect {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 0;
+    gap: 5px;
+}
+
+.Registro {
+    background-color: #DDDDDD;
+    height: 994px;
+    margin-top: 20px;
+    gap: 15px;
+    padding: 14px;
+}
+
+.show-date-contener {
+    background-color: #fff;
+    width: 852px;
+    height: 926px;
+    margin: auto;
+}
+
+.coordinadora {
+    background-color: #DDDDDD;
+    width: 822px;
+    height: 70px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 3%;
+    border-radius: 4px;
+}
+
+.horario {
+    background-color: #DDDDDD;
+    width: 822px;
+    height: 242px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.days {
+    display: flex;
+    margin: 11px;
+}
+
+.days1 {
+    background-color: #DFF0D8;
+    width: 240px;
+    height: 68px;
+    padding: 12px;
+}
+
+.days2 {
+    background-color: #DFF0D8;
+    width: 160px;
+    height: 68px;
+    padding: 12px;
+}
+
+.days-time {
+    background-color: #DFF0D8;
+    width: 400px;
+    font-size: 18px;
+    padding: 12px;
+}
+
+.sabado {
+    margin-left: 11px;
+    margin-top: -11px;
+}
+
+.days3 {
+    background-color: #F2DEDE;
+    width: 240px;
+    height: 42px;
+    padding: 12px;
+}
+
+.days-4 {
+    background-color: #F2DEDE;
+    width: 160px;
+    height: 42px;
+    padding: 12px;
+}
+
+.days-time2 {
+    width: 400px;
+    height: 42px;
+    padding: 12px;
+    background-color: #F2DEDE;
+}
+
+.registration {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.registration p{
+    color: black;
+}
+.D-registration{
+    margin-top: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.detail{
+    background-image: url(img/image5.png);
+    width: 288px;
+    height: 29px;
+    background-repeat: no-repeat;
+}
+.side-menubar {
+    background-color: #fff;
+    color: #777777;
+    width: 100%;
+    height: 100%;
+ /* margin: 5px; */
+    margin-top: 10px;
+}
+.services{
+    background-color: #fff;
+    color: red; 
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 14px;
+}
+.visitas{
+    background-color: #fff;
+    width: 100%;
+    height: 188px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.footer{
+    background-color: black;
+    height: 258px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 5px solid red;
+}
